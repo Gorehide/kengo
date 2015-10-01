@@ -25,8 +25,8 @@ include("../includes/mpdf60/mpdf.php");
 $mpdf=new mPDF('win-1252','A4','','',0,0,30,25,0,0);
 $mpdf->useOnlyCoreFonts = true;    // false is default
 $mpdf->SetProtection(array('print'));
-$mpdf->SetTitle("SONORT - Factura");
-$mpdf->SetAuthor("SONORT");
+$mpdf->SetTitle("EMRPESA - Factura proforma");
+$mpdf->SetAuthor("EMPRESA");
 $mpdf->SetWatermarkText("PROFORMA");
 $mpdf->showWatermarkText = true;
 $mpdf->watermark_font = 'DejaVuSansCondensed';
@@ -140,7 +140,7 @@ $html .= '
 			</htmlpageheader>
 			<htmlpagefooter name="myfooter">
 				<div class="pie">
-					<div><b>SONORT</b> | Calle Zubileta 27 Poligono Ibarreta 3F - 48903 Barakaldo (Bizkaia) | <span class="icono">&#9990;</span> 627.918.398 | <span class="icono">&#9993;</span> <a class="email" href="mailto:sonort@sonort.com">sonort@sonort.com</a></div>
+					<div><b>EMPRESA</b> | Calle de la empresaF - 40000 Bilabo (Bizkaia) | <span class="icono">&#9990;</span> 600.000.000 | <span class="icono">&#9993;</span> <a class="email" href="mailto:facturacion@empresa.com">facturacion@empresa.com</a></div>
 					<div class="paginador"><br>Página {PAGENO} de {nb}</div>
 				</div>
 			</htmlpagefooter>
@@ -251,7 +251,7 @@ $html .= '
 $html .= '
 		</div>';
 //LATERAL
-$html .= '<div class="lateral"><b>BerSonort buen sonido 2003 S.L</b> | Calle Zubileta 27 Polígono Ibarreta 3F - 48903 Barakaldo (Bizkaia) | <b>CIF:</b> B95292579</div>';
+$html .= '<div class="lateral"><b>Nombre de la empresa</b> | Calle de la empresa - 40000 Bilbao (Bizkaia) | <b>CIF:</b> B0000000</div>';
 
 //CIERRE DEL HTML
 $html .="
