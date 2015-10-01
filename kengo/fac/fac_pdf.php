@@ -31,7 +31,7 @@ $pdf->addJpegFromFile('../imagenes/logo.jpg',25,770,200);
 $pdf->setLineStyle(1);
 $pdf->line(20,750,575.28,750);
 //TEXTO LATERAL
-$pdf->addText(20,200,8,utf8_decode("<b>SONORT</b> | Calle Zubileta 27 Poligono Industrial Ibarreta Pabellon 16 Bajo - 48903 Barakaldo (Bizkaia) <b>CIF:</b> B95292579"),-90);
+$pdf->addText(20,200,8,utf8_decode("<b>EMPRESA</b> | Dirección de la empresa 1 Bajo - 48000 Bilbao (Bizkaia) | <b>Tlf:</b> 600.000.000  | <b>Email:</b> email@email.com"),-90);
 //INFO FACTURA
 $pdf->ezSetY(740);
 $pdf->ezText(utf8_decode("<b>CLIENTE: </b>".$row['clnombre']),10);
@@ -109,7 +109,7 @@ $pdf->ezText(utf8_decode("<b>FORMAS DE PAGO:</b> ".$row['cubanco']." :: ".$row['
 $pdf->setColor(0.9,0.0,0.4);
 $pdf->filledRectangle(0,0,595.28,50);
 $pdf->setColor(1,1,1);
-$pdf->addText(40,20,8,utf8_decode("<b>SONORT</b> | Calle Zubileta 27 Poligono Industrial Ibarreta Pabellon 16 Bajo - 48903 Barakaldo (Bizkaia) | <b>Tlf:</b> 627.918.398  | <b>Email:</b> sonort@sonort.com"),0);
+$pdf->addText(40,20,8,utf8_decode("<b>EMPRESA</b> | Dirección de la empresa 1 Bajo - 48000 Bilbao (Bizkaia) | <b>Tlf:</b> 600.000.000  | <b>Email:</b> email@email.com"),0);
 
 
 //PARA SACARLO POR PANTALLLA
