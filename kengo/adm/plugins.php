@@ -1,0 +1,1 @@
+<p style="text-align: center; padding: 100px 0px; font-size: 14px; font-weignt: bold;">La sección de plugins está todavía en construcción</p>

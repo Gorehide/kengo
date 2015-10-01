@@ -1,0 +1,12 @@
+v0.12 - May 10 2009 
+* russian translation (Ivan Chistyakov)
+* permit use of cache in ajax (Joris Frugier)
+
+v0.11 - Jan 08 2009 
+* added "delete folder" option
+* show current location
+* added some file type icons
+* language updates
+
+v0.1 - Oct 2008
+* initial release

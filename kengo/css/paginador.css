@@ -1,0 +1,35 @@
+/*PAGINADOR*/
+
+.paginador {
+  margin-left: 2px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: -1px -1px 0px #333333;
+}
+
+        .paginador a{
+        }
+
+.pagseleccionado {
+  border: 1px solid #666666;
+  background-color: #FFFFFF;
+  padding: 1px 2px;
+  margin-right: 4px;
+  margin-top: 3px;
+  font-weight: bold;
+  float: left;
+  /*width: 10px;*/
+}
+
+.pag {
+  margin-right: 4px;
+  margin-top: 5px;
+  float: left;
+  /*width: 10px;*/
+}
+
+.pagdibu {
+  margin-right: 4px;
+  padding-top: 4px;
+  float: left;
+}

@@ -1,0 +1,116 @@
+/* tables */
+table.tablesorter {
+	background-color: #CDCDCD;
+	margin: auto;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color:#AAAAAA;
+    border:1px solid #333333;
+    color:#FFFFFF;
+    font-size:8pt;
+    padding:4px;
+    text-shadow:0 0 2px #000000;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+    background-color: #AAAAAA;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 2px #000000;
+
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFFFFF;
+    	border-radius: 5px;
+    	border: 1px solid #999999;
+    	height: 20px;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #CC0000;
+color: #FFFFFF;
+text-shadow: 0px 0px 2px #000000;
+}
+
+.pager {
+  padding: 1px;
+  margin-top: 10px;
+  background-color: #666666;
+  border-radius: 10px;     
+}
+
+.pager table {
+  background-color: transparent;
+}
+
+.pager td {
+  padding: 0px;
+}              
+
+.pager input[type="text"] {
+  min-width: 30px;
+  width: auto;
+  padding: 5px;
+  text-align: center;
+  border: none;
+  /*background-image: url("imagenes/paginador_bgr.png");
+  background-repeat: no-repeat;
+  background-position: 0px 2px;*/
+  background-color: #FFFFFF !important;
+  border-radius: 5px;
+  width: 147px;
+  font-size: 10px;
+}
+
+.pager select {
+  border: none;
+  background-color: #FFFFFF !important;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.pager .pagiseli {
+  /*background-image: url("imagenes/paginadorsel_bgr.png");
+  background-repeat: no-repeat;
+  background-position: 4px 1px;*/
+  background-color: #FFFFFF !important;
+  border-radius: 5px;
+  width: 55px;
+  border: none;
+}
+
+.pager option {
+  background-color: #333333;
+  border: none;
+  border-bottom: 1px solid #CCCCCC;
+  color: #FFFFFF;
+  font-size: 10px;
+}
+
+
+.pager img {
+  cursor: pointer;
+}
+
+.pager select {
+  border: none;
+  width: 50px;
+  text-align: center;
+}

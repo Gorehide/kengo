@@ -1,0 +1,59 @@
+============================================= Kengo CMS ===================================================================
+___________________________________________________________________________________________________________________________
+
+Autor: Mikel Amondo
+www.bikuma.com
+mikel@bikuma.com
+
+Última revisión:	07/12/2010
+___________________________________________________________________________________________________________________________
+
+DESCRIPCIÓN:
+	
+	archivos:	Carpeta con permisos de escritura donde se almacenan los archivos subidos por los usuarios.
+		
+		files:	Es la única carpeta obligatoria. Esta carpeta es con la que trabaja el gestor de archivos de Kengo.
+	
+	css:	Carpeta con los archivos css que pueden usar tanto Kengo como la parte pública de la web.
+		
+		jqueryui:	Carpeta con los archivos de estilos de la libreria JQUERY-UI.
+
+	imagenes:	Carpeta contenedora de las imágenes que componen la parte pública de la web.
+
+	jscriptes:	Carpeta contenedora de los archivos javascript que pueden usar tanto Kengo como la parte púlica de la web.
+
+		adapter:	Carpeta que contiene los archivos usados por shadowbox.
+
+		shadowbox:	Carpeta del plugin hadowbox.
+
+	kengo:	
+
+		adm:	Carpeta contenedora de los archivos que gestionan los menus de los administradores.
+	
+		bd:	Carpeta contenedora de una copia simple de la bbdd para una instalación limpia.
+
+		cli:	Carpeta que contiene los archivos de los menus creados para el gestor del cliente.
+
+		config:	Carpeta contenedora del archivo de configuración de Kengo.
+
+		css:	Carpeta con los estilos aplicados al gestor.
+
+		html:	Carpeta contenedora de los archivos que crean la estructura de Kengo.
+
+		imagenes:	Carpeta contenedora de las imágenes usadas en Kengo.
+
+			iconos:	Carpeta contenedora de los iconos que se usan en al creación del menu de Kengo.
+
+			tipos:	Carpeta con los distintos iconos de tipos de archivos.
+
+		images:	Carpeta que contiene las imágenes usadas por algunos plugins.
+
+		includes:	Carpeta contenedora de los archivos que se pueden llamar desde cualquier archivo del kengo.
+
+		jscriptes:	Carpeta contenedora de los archivos javascript que utiliza Kengo.
+
+	minis:	Carpeta donde se crean las miniaturas de las imagenes.
+
+	public:	Carpeta que contiene los archivos que componen la parte pública de la web.
+
+	traducciones:	Carpeta que contiene los archivos de traducciones para sitios multi-idioma.
